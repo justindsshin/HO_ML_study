@@ -1,2 +1,17 @@
-from sklearn.datasets import fetch_openml
-mnist = fetch_openml("mnist_784", as_frame=False)
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Chapter 3 – Classification**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "_This notebook contains all the sample code and solutions to the exercises in chapter 3._"
+   ]
+  }
+}
