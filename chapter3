@@ -1,17 +1,5 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "**Chapter 3 – Classification**"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "_This notebook contains all the sample code and solutions to the exercises in chapter 3._"
-   ]
-  }
-}
+# fetches the MNIST dataset(a set of 70,000 small images of digits handwritten by high school students and employees of the US Census Bureau) from OpenML.org
+
+from sklearn.datasets import fetch_openml
+
+mnist = fetch_openml('mnist_784', as_frame=False)
